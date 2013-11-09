@@ -1,0 +1,7 @@
+Must Have: Player(art&code), Player movement, player Jetpack, camera that follows player,  enemies(static)(art&code), basic level(art&code), Animation(art&code).
+
+Should Have: Pickups, enemies(A.I.), Complete level(code&art), shooting, GUI, environment, enemies(art&code).
+
+Could Have: Multiple Levels. more enemies(code&art), boss fight(code&art), smart camera, multiple weapons, particles, menu(code&art).
+
+Would/ won't Have: 

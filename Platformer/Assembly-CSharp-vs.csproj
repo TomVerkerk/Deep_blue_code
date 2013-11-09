@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{100AE41E-9853-00A1-0814-C759729749EB}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;UNITY_4_2_2;UNITY_4_2;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Animation\AdderAnimationL.cs" />
+     <Compile Include="Assets\Animation\AdderAnimationR.cs" />
+     <Compile Include="Assets\Animation\AnimationL.cs" />
+     <Compile Include="Assets\Animation\AnimationR.cs" />
+     <Compile Include="Assets\Animation\Animation_Down.cs" />
+     <Compile Include="Assets\Animation\Animation_Down_L.cs" />
+     <Compile Include="Assets\Animation\Animation_Idle.cs" />
+     <Compile Include="Assets\Animation\Animation_Idle_L.cs" />
+     <Compile Include="Assets\Animation\Animation_Up.cs" />
+     <Compile Include="Assets\Animation\Animation_Up_L.cs" />
+     <Compile Include="Assets\Animation\Animation_plant1.cs" />
+     <Compile Include="Assets\Animation\Animation_plant2.cs" />
+     <Compile Include="Assets\Animation\Animation_plant3.cs" />
+     <Compile Include="Assets\Animation\Animation_shoot.cs" />
+     <Compile Include="Assets\Animation\Animation_shoot_L.cs" />
+     <Compile Include="Assets\Animation\BasicFishL.cs" />
+     <Compile Include="Assets\Animation\BasicFishR.cs" />
+     <Compile Include="Assets\Animation\Powerup_animation.cs" />
+     <Compile Include="Assets\Scripts\AdderMove.cs" />
+     <Compile Include="Assets\Scripts\Background.cs" />
+     <Compile Include="Assets\Scripts\Bullet\RemoveBullet.cs" />
+     <Compile Include="Assets\Scripts\ButtonAnimator.cs" />
+     <Compile Include="Assets\Scripts\EndLevel.cs" />
+     <Compile Include="Assets\Scripts\EnemyHealth.cs" />
+     <Compile Include="Assets\Scripts\GUIFuel.cs" />
+     <Compile Include="Assets\Scripts\GUIHealth.cs" />
+     <Compile Include="Assets\Scripts\GateAnimator.cs" />
+     <Compile Include="Assets\Scripts\MenuControls.cs" />
+     <Compile Include="Assets\Scripts\MenuCredits.cs" />
+     <Compile Include="Assets\Scripts\MenuOptions.cs" />
+     <Compile Include="Assets\Scripts\MenuStart.cs" />
+     <Compile Include="Assets\Scripts\Player\PlayerHealth.cs" />
+     <Compile Include="Assets\Scripts\Player\PlayerMove.cs" />
+     <Compile Include="Assets\Scripts\Player\PlayerShoot.cs" />
+     <Compile Include="Assets\Scripts\Player\SpriteAnimator.cs" />
+     <Compile Include="Assets\Scripts\Powerup\PowerupFuel.cs" />
+     <Compile Include="Assets\Scripts\Powerup\PowerupHP.cs" />
+     <Compile Include="Assets\Scripts\Powerup\PowerupRotate.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
