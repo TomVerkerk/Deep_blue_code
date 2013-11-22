@@ -26,7 +26,8 @@ public class Animation_plant2 : MonoBehaviour {
 		float uIndex = index % Columns;
 		float vIndex = index/Columns;
 		
-		offsetX = uIndex * rightX + extraOffsetX;
+		offsetX = uIndex * rightX;
+		offsetX = offsetX + extraOffsetX;
 		offsetY = 1 + extraOffsetY -(vIndex * rightY);
 		
 		Vector2 offset = new Vector2(offsetX, offsetY);

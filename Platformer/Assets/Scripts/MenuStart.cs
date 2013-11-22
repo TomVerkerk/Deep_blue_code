@@ -21,19 +21,19 @@ public class MenuStart: MonoBehaviour {
 		
 
 			
-		if(GUI.Button(new Rect(113,522,247,100),""))
+		if(GUI.Button(new Rect(35,410,200,80),""))
 		{
 			Application.LoadLevel("Level1");
 		}
-		if(GUI.Button(new Rect(427,522,365,110),""))
+		if(GUI.Button(new Rect(275,400,290,100),""))
 		{
 			Application.LoadLevel ("Options");
 		}
-		if(GUI.Button(new Rect(888,522,345,100),""))
+		if(GUI.Button(new Rect(635,400,280,100),""))
 		{
 			Application.LoadLevel("Credits");
 		}
-		if(GUI.Button(new Rect(1056,110,200,40),""))
+		if(GUI.Button(new Rect(770,90,150,30),""))
 		{
 			Application.LoadLevel ("Controls");
 		}

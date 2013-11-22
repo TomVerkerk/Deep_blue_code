@@ -7,7 +7,7 @@ public class EndLevel : MonoBehaviour {
 	{
 		if(col.gameObject.name == "Player")
 		{
-			Application.LoadLevel("Level2");
+			Application.LoadLevel("Menu");
 		}
 	}
 }
